@@ -23,6 +23,22 @@ h1,h2{
     border-radius: 0px;
 }
 
+/* Shared button style */
+.btn-primary {
+  background-color: #3498db; /* mid-blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn-primary:hover {
+  background-color: #1d6d8a; /* darker blue on hover */
+}
+
 
 #hero {
     background-color: #a4c2d1;
